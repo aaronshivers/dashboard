@@ -1,2 +1,18 @@
+// Core variables and mixins
+@import "./base/variables.scss";
+@import "./base/mixins.scss";
+
+// Bootstrap
 @import './custom/custom';
 @import '../../node_modules/bootstrap/scss/bootstrap';
+@import "./base/global.scss";
+
+// Components
+@import './components/cards';
+@import './components/footer';
+@import './components/login';
+@import './components/navbar';
+@import './components/utilities';
+
+// Layout
+
